@@ -5,6 +5,37 @@
   box-sizing:border-box;
   font-family: 'Montserrat', sans-serif;
 }
+body{
+  background: #333;
+}
+.image-text{
+  display: flex;
+}
+.image-text img{
+ padding: 2rem;
+ padding-left: 8rem;
+ border: 200px;
+}
+.image-text p{
+  position: relative;
+  height: 2rem;
+  width: 100%;
+  top:18rem;
+  left: 20rem;
+  font-size: 2rem;
+  color: aliceblue;
+  
+}
+.btn-get{
+  position: relative;
+  bottom:18rem;
+  left:61rem;
+}
+.btn-get:hover{
+  background: rgb(238,174,202);
+  color:black;
+}
+
 
 .navbar h2{
   font-family: 'Style Script', cursive;
