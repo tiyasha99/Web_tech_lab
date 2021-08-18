@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #333;
+  color: aliceblue;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  position: relative;
+  justify-content: space-between;
+  text-align: center;
+  padding:15px 30px;
+}
+.navbar h2{
+  font-family: 'Style Script', cursive;
+  font-size: 3rem;
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  position: relative;
+  
+}
+.about-form{
+  top:2rem;
+  bottom: 2rem;
+}
+.instruments{
+  background: aliceblue;
+  color: #333;
+  position: relative;
+  top: 2rem;
+  padding: 2rem;
+  padding-bottom: 5rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
