@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background: #333;
+}
+.navbar h2{
+  font-family: 'Style Script', cursive;
+  font-size: 3rem;
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  position: relative;
+  justify-content: space-between;
+  text-align: center;
+  padding:15px 30px;
+}
+.Objects{
+  top:0rem;
+  position: relative;
+  display:flex;
+ left:25rem;
+}
+.Objects object{
+  padding: 100px;
+  width:300px;
+  height:300px;
+  
+
+}
+.para{
+  display: flex;
+  position: relative;
+  top:-5rem;
+  left:40rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: beige;
+}
+.para p{
+  padding-right: 3rem;
+}
+.videos,.music h1{
+  color:wheat;
+  padding: 2rem;
+}
+.videos video{
+ margin: 2rem;
+}
+.videos iframe{
+  margin: 2rem;
+ }
+
+ .videos embed{
+  margin: 2rem;
+ }
+ .music audio{
+  margin-left: 2rem;
+ }
