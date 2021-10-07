@@ -30,6 +30,13 @@ body{
   position: relative;
   bottom:18rem;
   left:61rem;
+  padding: 10px;
+  border-radius:10px;
+  background:#fff;
+  
+  width:10rem;
+  height: 3rem;
+  
 }
 .btn-get:hover{
   background: rgb(238,174,202);
@@ -67,6 +74,9 @@ body{
 .navbar ul li a{
   text-decoration: none;
   padding: 5px 10px;
+}
+.navbar ul li a:visited{
+  color: rgb(255, 0, 191);
 }
 .navbar ul li a:hover{
   background: #333;
